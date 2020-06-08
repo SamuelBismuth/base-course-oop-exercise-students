@@ -2,12 +2,12 @@ package AerialVehicles;
 
 import Missions.Mission;
 
+
 public class F15 extends AerialVehicle implements AerialAttackVehicle, AerialIntelligenceVehicle {
 
 	private int nbOfMissiles;
 	private String missileType;
 	private String sensor;
-	
 	
 	public F15(String sensor, int nbOfMissiles, String missileType, String pilotName, Mission mission, int hoursOfFlightSinceLastRepair, boolean flyStatus) {
 		super(pilotName, mission, hoursOfFlightSinceLastRepair, flyStatus);
@@ -29,4 +29,5 @@ public class F15 extends AerialVehicle implements AerialAttackVehicle, AerialInt
 	public int getMaximalHours() {
 		return 250;
 	}
+	
 }

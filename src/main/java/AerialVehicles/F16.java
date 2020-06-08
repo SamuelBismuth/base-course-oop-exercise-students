@@ -1,9 +1,7 @@
 package AerialVehicles;
 
-import Missions.AttackMission;
-import Missions.BdaMission;
 import Missions.Mission;
-import Missions.MissionTypeException;
+
 
 public class F16 extends AerialVehicle implements AerialBdaVehicle, AerialAttackVehicle {
 	
@@ -31,4 +29,5 @@ public class F16 extends AerialVehicle implements AerialBdaVehicle, AerialAttack
 	public int getMaximalHours() {
 		return 250;
 	}
+	
 }

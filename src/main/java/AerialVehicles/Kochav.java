@@ -2,13 +2,13 @@ package AerialVehicles;
 
 import Missions.Mission;
 
+
 public class Kochav extends AerialVehicle implements AerialBdaVehicle, AerialIntelligenceVehicle, AerialAttackVehicle {
 
 	private int nbOfMissiles;
 	private String missileType;
 	private String camera;
 	private String sensor;
-	
 	
 	public Kochav(int nbOfMissiles, String missileType, String camera, String sensor, String pilotName, Mission mission, int hoursOfFlightSinceLastRepair, boolean flyStatus) {
 		super(pilotName, mission, hoursOfFlightSinceLastRepair, flyStatus);
@@ -36,4 +36,5 @@ public class Kochav extends AerialVehicle implements AerialBdaVehicle, AerialInt
 	public int getMaximalHours() {
 		return 100;
 	}
+	
 }

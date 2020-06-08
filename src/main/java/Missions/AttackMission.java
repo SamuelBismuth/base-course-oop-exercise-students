@@ -1,9 +1,7 @@
 package Missions;
 
-import AerialVehicles.AerialAttackVehicle;
-import AerialVehicles.AerialBdaVehicle;
-import AerialVehicles.AerialVehicle;
 import Entities.Coordinates;
+
 
 public class AttackMission extends Mission {
 
@@ -22,4 +20,5 @@ public class AttackMission extends Mission {
 	public String toString() {
 		return " Attacking " + this.getTarget();
 	}
+	
 }

@@ -2,13 +2,13 @@ package AerialVehicles;
 
 import Missions.Mission;
 
+
 public class Shoval extends AerialVehicle implements AerialBdaVehicle, AerialIntelligenceVehicle, AerialAttackVehicle {
 
 	private int nbOfMissiles;
 	private String missileType;
 	private String camera;
 	private String sensor;
-	
 	
 	public Shoval(String camera, int nbOfMissiles, String missileType, String sensor, String pilotName, Mission mission, int hoursOfFlightSinceLastRepair, boolean flyStatus) {
 		super(pilotName, mission, hoursOfFlightSinceLastRepair, flyStatus);

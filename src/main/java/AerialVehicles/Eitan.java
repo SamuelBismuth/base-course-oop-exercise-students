@@ -1,16 +1,13 @@
 package AerialVehicles;
 
-import Missions.AttackMission;
-import Missions.IntelligenceMission;
 import Missions.Mission;
-import Missions.MissionTypeException;
+
 
 public class Eitan extends AerialVehicle implements AerialAttackVehicle, AerialIntelligenceVehicle {
 
 	private int nbOfMissiles;
 	private String missileType;
 	private String sensor;
-	
 	
 	public Eitan(int nbOfMissiles, String missileType, String sensor, String pilotName, Mission mission, int hoursOfFlightSinceLastRepair, boolean flyStatus) {
 		super(pilotName, mission, hoursOfFlightSinceLastRepair, flyStatus);

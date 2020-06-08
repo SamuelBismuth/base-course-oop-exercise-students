@@ -1,7 +1,7 @@
 package AerialVehicles;
 
 import Missions.Mission;
-import Missions.MissionTypeException;
+
 
 public abstract class AerialVehicle implements AerialVehicleService {
 	
@@ -77,4 +77,5 @@ public abstract class AerialVehicle implements AerialVehicleService {
 	public String genericPreformBda(String camera) {
 		return this.getLog() + " with: " + camera + " camera";
 	}
+	
 }

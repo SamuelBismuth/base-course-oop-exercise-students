@@ -1,6 +1,8 @@
 package Entities;
 
+
 public class Coordinates {
+	
     private Double longitude;
     private Double latitude;
 
@@ -29,6 +31,5 @@ public class Coordinates {
 	public String toString() {
 		return longitude + ", " + latitude;
 	}
-    
     
 }

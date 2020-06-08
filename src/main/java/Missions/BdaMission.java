@@ -1,7 +1,5 @@
 package Missions;
 
-import AerialVehicles.AerialBdaVehicle;
-import AerialVehicles.AerialVehicle;
 import Entities.Coordinates;
 
 
