@@ -1,9 +1,11 @@
-package AerialVehicles;
+package AerialVehicles.UAVs.Haron;
 
+import AerialVehicles.AerialAttackVehicle;
+import AerialVehicles.AerialIntelligenceVehicle;
 import Missions.Mission;
 
 
-public class Eitan extends AerialVehicle implements AerialAttackVehicle, AerialIntelligenceVehicle {
+public class Eitan extends Haron implements AerialAttackVehicle, AerialIntelligenceVehicle {
 
 	private int nbOfMissiles;
 	private String missileType;
@@ -24,10 +26,6 @@ public class Eitan extends AerialVehicle implements AerialAttackVehicle, AerialI
 	@Override
 	public String attack() {
 		return genericAttack(missileType, nbOfMissiles);
-	}
-	
-	public int getMaximalHours() {
-		return 150;
 	}
 	
 }

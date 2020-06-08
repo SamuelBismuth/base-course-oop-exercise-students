@@ -1,9 +1,12 @@
-package AerialVehicles;
+package AerialVehicles.FighterJets;
 
+import AerialVehicles.AerialAttackVehicle;
+import AerialVehicles.AerialIntelligenceVehicle;
+import AerialVehicles.AerialVehicle;
 import Missions.Mission;
 
 
-public class F15 extends AerialVehicle implements AerialAttackVehicle, AerialIntelligenceVehicle {
+public class F15 extends FighterJets implements AerialAttackVehicle, AerialIntelligenceVehicle {
 
 	private int nbOfMissiles;
 	private String missileType;
@@ -24,10 +27,6 @@ public class F15 extends AerialVehicle implements AerialAttackVehicle, AerialInt
 	@Override
 	public String attack() {
 		return genericAttack(missileType, nbOfMissiles);
-	}
-	
-	public int getMaximalHours() {
-		return 250;
 	}
 	
 }

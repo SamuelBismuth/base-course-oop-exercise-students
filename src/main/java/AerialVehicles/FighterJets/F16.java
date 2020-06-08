@@ -1,9 +1,12 @@
-package AerialVehicles;
+package AerialVehicles.FighterJets;
 
+import AerialVehicles.AerialAttackVehicle;
+import AerialVehicles.AerialBdaVehicle;
+import AerialVehicles.AerialVehicle;
 import Missions.Mission;
 
 
-public class F16 extends AerialVehicle implements AerialBdaVehicle, AerialAttackVehicle {
+public class F16 extends FighterJets implements AerialBdaVehicle, AerialAttackVehicle {
 	
 	private int nbOfMissiles;
 	private String missileType;
@@ -26,8 +29,6 @@ public class F16 extends AerialVehicle implements AerialBdaVehicle, AerialAttack
 		return genericPreformBda(camera);
 	}
 	
-	public int getMaximalHours() {
-		return 250;
-	}
+
 	
 }

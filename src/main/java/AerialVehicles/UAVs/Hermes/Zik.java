@@ -1,9 +1,11 @@
-package AerialVehicles;
+package AerialVehicles.UAVs.Hermes;
 
+import AerialVehicles.AerialBdaVehicle;
+import AerialVehicles.AerialIntelligenceVehicle;
 import Missions.Mission;
 
 
-public class Zik extends AerialVehicle implements AerialBdaVehicle, AerialIntelligenceVehicle {
+public class Zik extends Hermes implements AerialBdaVehicle, AerialIntelligenceVehicle {
 
 	private String camera;
 	private String sensor;
@@ -22,10 +24,6 @@ public class Zik extends AerialVehicle implements AerialBdaVehicle, AerialIntell
 	@Override
 	public String preformBda() {
 		return genericPreformBda(camera);
-	}
-	
-	public int getMaximalHours() {
-		return 100;
 	}
 	
 }

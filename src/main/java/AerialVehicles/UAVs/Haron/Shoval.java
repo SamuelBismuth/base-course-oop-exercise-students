@@ -1,9 +1,12 @@
-package AerialVehicles;
+package AerialVehicles.UAVs.Haron;
 
+import AerialVehicles.AerialAttackVehicle;
+import AerialVehicles.AerialBdaVehicle;
+import AerialVehicles.AerialIntelligenceVehicle;
 import Missions.Mission;
 
 
-public class Shoval extends AerialVehicle implements AerialBdaVehicle, AerialIntelligenceVehicle, AerialAttackVehicle {
+public class Shoval extends Haron implements AerialBdaVehicle, AerialIntelligenceVehicle, AerialAttackVehicle {
 
 	private int nbOfMissiles;
 	private String missileType;
@@ -31,10 +34,6 @@ public class Shoval extends AerialVehicle implements AerialBdaVehicle, AerialInt
 	@Override
 	public String attack() {
 		return genericAttack(missileType, nbOfMissiles);
-	}
-	
-	public int getMaximalHours() {
-		return 150;
 	}
 	
 }
