@@ -14,5 +14,12 @@ public class AttackMission extends Mission {
 		this.target = target;
 	}
 
-    
+	public String getTarget() {
+		return target;
+	}
+
+	@Override
+	public String toString() {
+		return " Attacking " + this.getTarget();
+	}
 }

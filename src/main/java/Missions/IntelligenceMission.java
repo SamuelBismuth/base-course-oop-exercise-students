@@ -12,4 +12,13 @@ public class IntelligenceMission extends Mission {
 		super(coordinates);
 		this.region = region;
 	}
+	
+	public String getRegion() {
+		return region;
+	}
+
+	@Override
+	public String toString() {
+		return " Collecting Data in " + this.getRegion();
+	}
 }
