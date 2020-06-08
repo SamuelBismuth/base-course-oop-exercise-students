@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testF15" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-08T14:32:17" hostname="sam-hp" time="0.001">
+<testsuite name="testF15" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-08T14:39:33" hostname="sam-hp" time="0.001">
   <properties/>
   <testcase name="testCollectIntelligence" classname="testF15" time="0.0"/>
   <testcase name="testBdaNotImplemented" classname="testF15" time="0.0"/>
