@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testZik" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-06-08T14:27:13" hostname="sam-hp" time="0.001">
+<testsuite name="testZik" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-06-08T14:32:17" hostname="sam-hp" time="0.001">
   <properties/>
-  <testcase name="testCollectIntelligence" classname="testZik" time="0.0"/>
-  <testcase name="testBda" classname="testZik" time="0.001"/>
+  <testcase name="testCollectIntelligence" classname="testZik" time="0.001"/>
+  <testcase name="testBda" classname="testZik" time="0.0"/>
   <testcase name="testRepairZik" classname="testZik" time="0.0"/>
   <testcase name="testAttackImplementedInZik" classname="testZik" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
